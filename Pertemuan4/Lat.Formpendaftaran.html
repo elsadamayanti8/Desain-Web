@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Pendaftaran</title>
+</head>
+<body>
+    <form action="submit-form.php" method="post">
+        <h1>Formulir Pendaftaran STMIK KAPUTAMA T.A 2024/2025</h1>
+        <p><strong>Perhatian!</strong> Field yang bertanda bintang berarti wajib diisi.</p>
+
+        <fieldset>
+            <legend><b>DATA DIRI</b></legend>
+            <p>
+                <label for="NIK"><b>NIK :*</b></label>
+                <input type="text" id="NIK" name="NIK" required>
+                <label for="nama_lengkap"><b>Nama Lengkap :*</b></label>
+                <input type="text" id="nama_lengkap" name="nama_lengkap" required></p>
+                <label for="TTL"><b>Tempat/Tanggal Lahir :*</b></label><br/>
+                <input type="text" id="tempat_lahir" name="tempat_lahir">
+                <input type="date" id="TTL" name="TTL" required></p>
+            <p>
+                <label for="jenis_kelamin"><b>Jenis Kelamin :*</b></label><br/>
+                <input type="radio" name="jenis_kelamin" value="Laki-laki">Laki-laki</option>
+                <input type="radio" name="jenis_kelamin" value="Perempuan">Perempuan</option></p>
+            <p>
+                <label for="status"><b>Status :*</b></label><br/>
+                <input type="radio" name="status" value="Menikah">Menikah</option>
+                <input type="radio" name="status" value="Belum Menikah">Belum Menikah</option>
+                </select></p>
+            <p>
+                <label for="agama"><b>Agama :*</b></label><br/>
+                <input type="radio" name="agama" value="Islam">Islam</option>
+                <input type="radio" name="agama" value="Islam">Protestan</option>
+                <input type="radio" name="agama" value="Islam">Katolik</option>
+                <input type="radio" name="agama" value="Islam">Hindu</option><br/>
+                <input type="radio" name="agama" value="Islam">Buddha</option>
+                </select></p>
+            <p>
+                <label for="alat_transportasi"><b>Alat Transportasi :</b></label>
+                <select name="at" size="1">
+                <option value="Jalan kaki"><b>Jalan kaki</b></option>
+                <option value="Angkutan umum/bus/pete-pete">Angkutan umum/bus/pete-pete</option>
+                <option value="Mobil/bus antar jemput">Mobil antar jemput</option>
+                <option value="Kereta api">Kereta api</option>
+                <option value="Ojek">Ojek</option>
+                <option value="Andong/bendi/sado/dokar/delman/becak">Andong/bedi/sado/dokar/delman/becak</option>
+                <option value="Perahu penyebrangan/rakit/getek">Perahu penyebrangan/rakit/getek</option>
+                <option value="Kuda">Kuda</option>
+                <option value="Sepeda">Sepeda</option>
+                <option value="Sepeda motor">Sepeda motor</option>
+                <option value="Mobil pribadi">mobil pribadi</option>
+                <option value="Lainnya">Lainnya</option></select>
+                <label for="jenis_tinggal"><b>Jenis Tinggal :</b></label>
+                <select name="at" size="1">
+                <option value="Bersama orang tua"><b>Bersama orang tua</b></option>
+                <option value="Wali">Wali</option>
+                <option value="Kost">Kost</option>
+                <option value="Asrama">Asrama</option>
+                <option value="Panti asuhan">Panti asuhan</option>
+                <option value="Lainnya">Lainnya</option></select></p>
+            <p>
+                <label for="penerima_kps"><b>Penerima KPS :*</b></label>
+                <select nam="at" size="1">
+                <option value="TIDAK">Tidak</option>
+                <option value="YA">Ya</option></select>
+                <label for="kewarganegaraan"><b>Kewarganegaraan :*</b></label>
+                <select nam="at" size="1">
+                <option value="TIDAK">WNI</option>
+                <option value="YA">WNA</option></select></p>
+            <p>
+                <label for="alamat_lengkap"><b>Alamat Lengkap (Sesuai KTP) :*</b></label>
+                <textarea id="alamat_lengkap" name="alamat_lengkap" required></textarea><br/></p>
+            <p>
+                <label for="rt"><b>RT/RW :</b></label><br/>
+                <input type="text" id="rt" name="rt" required>
+                <input type="text" id="rt" name="rt" required>
+                <label for="rt"><b>Jalan :</b></label>
+                <input type="text" id="jalan" name="jalan" required></p>
+            <p>
+                <label for="rt"><b>Kode Pos :</b></label>
+                <input type="text" id="kode_pos" name="kode_pos" required>
+                <label for="rt"><b>Kel/Desa :*</b></label>
+                <input type="text" id="kel/desa" name="kel/desa" required></p>
+            <p>
+                <label for="rt"><b>Dusun :</b></label>
+                <input type="text" id="dusun" name="dusun" required>
+                <label for="rt"><b>Kecamatan :*</b></label>
+                <input type="text" id="kecamatan" name="kecamatan" required></p>
+            <p>
+                <label for="rt"><b>NPWP :</b></label>
+                <input type="text" id="npwp" name="npwp" required>
+                <label for="rt"><b>Telp/Hp :*</b></label>
+                <input type="text" id="telp/hp" name="telp/hp" required></p>
+            <p>
+                <label for="rt"><b>Email :</b></label>
+                <input type="text" id="email" name="email" required></p>
+            <p>
+                <label for="rt"><b>Asal Sekolah :*</b></label>
+                <input type="text" id="asal_sekolah" name="asal_sekolah" required></p>
+            <p>
+                <label for="rt"><b>NISN :*</b></label>
+                <input type="text" id="nisn" name="nisn" required></p>
+            <p>
+                <label for="rt"><b>Jurusan :*</b></label>
+                <input type="text" id="jurusan" name="jurusan" required></p>
+            <p>
+                <label for="rt"><b>Alamat :*</b></label>
+                <input type="text" id="alamat" name="alamat" required></p>
+            <p>
+                <label for="program_studi"><b>Program Studi :*</b></label><br/>
+                <input type="radio" name="program_studi" value="teknik_informatika(s1)">Teknik Informatika(S1)</option>
+                <input type="radio" name="program_studi" value="sistem_informasi(s1)">Sistem Informasi(S1)</option>
+                <input type="radio" name="program_studi" value="manajemen_informatika(d3)">Manajemen Informatika(D3)</option>
+                <input type="radio" name="program_studi" value="komputerisasi_akuntansi(d3)">Komputerisasi Akuntansi(D3)</option></p>
+            <p>
+                <label for="waktu_belajar"><b>Waktu Belajar :*</b></label><br/>
+                <input type="radio" name="waktu_belajar" value="pagi">Pagi</option>
+                <input type="radio" name="waktu_belajar" value="sore">Sore</option></p>
+            <p>
+                <label for="pilihan_kelas"><b>Pilihan Kelas :*</b></label><br/>
+                <input type="radio" name="pilihan_kelas" value="reguler">Reguler</option>
+                <input type="radio" name="pilihan_kelas" value="karyawan">Karyawan</option>
+                <input type="radio" name="pilihan_kelas" value="kip_kuliah">KIP Kuliah</option></p>
+            <p>
+                <label for="sumber_informasi"><b>Sumber Informasi Mengenai STMIK Kaputama</b></label><br/>
+                <input type="radio" name="sumber_informasi" value="brosur/dll">Brosur/Spanduk/Pc</option>
+                <input type="radio" name="sumber_informasi" value="media_massa">Media Massa</option>
+                <input type="radio" name="sumber_informasi" value="teman/saudara">Teman/Saudara</option>
+                <input type="radio" name="sumber_informasi" value="sosmed">Sosmed</option>
+                <input type="radio" name="sumber_informasi" value="lain-lain"><input type="text" name="Lain-lain" value="Lain-lain"></option></p>
+            <p>
+                <input type="radio" name="mengisi_data" value="isi_data">Saya telah memastikan data yang saya isi sudah benar</option></p>
+            <p>
+                <input type="submit" value="Kirim" />
+                <input type="reset" value="Batal"/>
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html> 
+
+            
