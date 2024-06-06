@@ -1,0 +1,30 @@
+
+    <html>
+       
+    <script type="text/javascript">
+
+
+        var harga = 1000;
+        var beli =(4)
+        var diskon = 0;
+        var totalbayar = 0;
+
+        var beli=prompt("Jumlah barang yang dibeli")
+
+        if (beli >= 3) {
+            diskon = 0.10 * harga * beli;
+        } else {
+            diskon = 0;
+        }
+        totalbayar = (harga * beli) - diskon;
+
+        document.write("Harga Per item =  " + harga);
+        document.write('<br>');
+        document.write("Jumlah beli    =  " + beli);
+        document.write('<br>');
+        document.write("Diskon  =  " + diskon);
+        document.write('<p>');
+        document.write("TOTAL BAYAR =  " + totalbayar);
+    </script>
+</html>
+
